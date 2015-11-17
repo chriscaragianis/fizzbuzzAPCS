@@ -1,3 +1,6 @@
+/*
+  Chris Caragianis
+*/
 class FizzBuzzTest {
   //FizzBuzz test class
   //A program to test the functionality of our FizzBuzz class
