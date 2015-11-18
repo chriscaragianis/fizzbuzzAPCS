@@ -10,7 +10,7 @@ class FizzBuzz {
   //for a number, n
 
   //fizzList(int start, int end)
-  //Print to the console
+  //Creates a string containing
   //a list of all fizzbuzz outputs starting with
   //start and ending witn end - 1.
 }
