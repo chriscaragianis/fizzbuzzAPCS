@@ -8,6 +8,9 @@ class FizzBuzz {
   //fizzNumber(int n)
   //Computes the proper fizzbuzz output
   //for a number, n
+  public static String fizzNumber(int n){
+    return "HI GUISE!";
+  }
 
   //fizzList(int start, int end)
   //Creates a string containing
