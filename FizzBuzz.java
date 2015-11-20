@@ -8,12 +8,22 @@ class FizzBuzz {
   //fizzNumber(int n)
   //Computes the proper fizzbuzz output
   //for a number, n
-  public static String fizzNumber(int n){
-    if (n == 1) {
-      return "1";
+  public static String fizzNumber(int n) {
+    if (n % 3 == 0) {
+      if (n % 5 == 0) {
+        return "fizzbuzz";
+      }
+      else {
+        return "fizz";
+      }
     }
     else {
-      return "fizzbuzz";
+      if (n % 5 == 0) {
+        return "buzz";
+      }
+      else {
+        return "" + n;
+      }
     }
   }
 
