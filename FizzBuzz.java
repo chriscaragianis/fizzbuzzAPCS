@@ -22,7 +22,7 @@ class FizzBuzz {
         return "buzz";
       }
       else {
-        return "" + n;
+        return "" +  n;
       }
     }
   }
